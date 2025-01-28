@@ -1,3 +1,4 @@
+# Define functions to later be called in main()
 def add(x, y):
     return x+y
 
@@ -12,6 +13,7 @@ def divide(x, y):
         raise ValueError("Cannot divide by zero!")
     return x/y
 
+# Call functions in main()
 def main():
     print("Select operation: ")
     print("1. Add")
